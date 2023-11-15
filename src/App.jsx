@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import backgroundImage from './assets/bg_dark_green.jpg'; // Adjust the path as necessary
+import backgroundImage from './assets/bg_dark.jpg'; // Adjust the path as necessary
 import Social_Instagram from './assets/Social_Icons/instagram.png';
 import Social_LinkedIn from './assets/Social_Icons/linkedin.png';
 import Social_Twitter from './assets/Social_Icons/twitter.png';
