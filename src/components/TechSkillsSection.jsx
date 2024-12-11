@@ -39,10 +39,11 @@ const TechSkillsSection = () => (
       </div>
       <div className="flex-col basis-1/3">
       <div className="text-xl text-white pl-2 pt-5 mx-2">
-        <p>UI/UX -</p>
+        <p>Generative AI-</p>
       </div>
       <div className="flex flex-wrap pl-2 pt-2 hover:translate-x-1 duration-200">
-        {["ADOBE ILLUSTRATOR", "FIGMA", "CANVA", "VARIOUS A.I TOOLS"].map(
+        {["Deep Learning", "NLP", "Generative Models", "Transfer Learning", "TensorFlow", "PyTorch", "Hugging Face", "NumPy", "Pandas", "Matplotlib", "Sklearn", "Data Preprocessing", "Fine-Tuning", "Model Evaluation", "Cloud Platforms (AWS, GCP, Azure)", "Docker", "CI/CD"]
+.map(
           (title, index) => (
             <Button key={index} title={title} />
           )
